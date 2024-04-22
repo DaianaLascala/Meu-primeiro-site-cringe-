@@ -1,0 +1,26 @@
+main {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 40px;
+  width: 350px;
+  height: 1300px;
+  background-color:#f6e4b3;;
+  border-radius: id 40px;
+  border-color: rgba(177, 31, 31, 0.795);
+}
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+.card-text {
+  text-align: justify;
+}
+
+
+@media (max-width: 1000px){}
